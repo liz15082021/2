@@ -29,6 +29,15 @@ nav ul {
     background: #ec23a9 ;
   }
 
+  .detalle{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
   img {
     float: right;
     width: 15%;
@@ -935,8 +944,8 @@ position: absolute;
 
 .imagen_personaje_81{
     height: 150px;
-    width: 100px;
-    background-image: url(img/Bulbasaur-removebg-preview.png);
+    width: 150px;
+    background-image: url(img/Magnemite-removebg-preview.png);
     background-size: cover;
     margin-bottom: 250px;
     transition: 300ms;
@@ -946,7 +955,7 @@ position: absolute;
     .imagen_personaje_82{
         height: 150px;
         width: 150px;
-        background-image: url(img/Ivysaur-removebg-preview.png);
+        background-image: url(img/Magneton-removebg-preview.png);
         background-size: cover;
         margin-bottom: 200px;
         transition: 300ms;
@@ -956,7 +965,7 @@ position: absolute;
  .imagen_personaje_83{
     height: 150px;
     width: 150px;
-    background-image: url(img/Venusaur-removebg-preview.png);
+    background-image: url(img/Farfetch_d-removebg-preview.png);
     background-size: cover;
     margin-bottom: 200px;
     transition: 300ms;
@@ -966,8 +975,8 @@ position: absolute;
 
 .imagen_personaje_84{
     height: 150px;
-    width: 130px;
-    background-image: url(img/Charmander-removebg-preview.png);
+    width: 150px;
+    background-image: url(img/Doduo-removebg-preview.png);
     background-size: cover;
     margin-bottom: 200px;
     transition: 300ms;
@@ -977,7 +986,7 @@ position: absolute;
 .imagen_personaje_85{
     height: 150px;
     width: 150px;
-    background-image: url(img/Charmeleon-removebg-preview.png);
+    background-image: url(img/dodrio-removebg-preview.png);
     background-size: cover;
     margin-bottom: 200px;
     transition: 300ms;
@@ -987,7 +996,7 @@ position: absolute;
 .imagen_personaje_86{
     height: 150px;
     width: 150px;
-    background-image: url(img/Charizard-removebg-preview.png);
+    background-image: url(img/Seel-removebg-preview\ \(2\).png);
     background-size: cover;
     margin-bottom: 200px;
     transition: 300ms;
@@ -997,7 +1006,7 @@ position: absolute;
 .imagen_personaje_87{
     height: 150px;
     width: 150px;
-    background-image: url(img/Squirtle-removebg-preview.png);
+    background-image: url(img/Dewgong-removebg-preview.png);
     background-size: cover;
     margin-bottom: 200px;
     transition: 300ms;
@@ -1007,7 +1016,7 @@ position: absolute;
 .imagen_personaje_88{
     height: 150px;
     width: 150px;
-    background-image: url(img/Wartortle-removebg-preview.png);
+    background-image: url(img/Grimer-removebg-preview.png);
     background-size: cover;
     margin-bottom: 200px;
     transition: 300ms;
@@ -1015,9 +1024,9 @@ position: absolute;
 }
 
 .imagen_personaje_89{
-    height: 150px;
-    width: 150px;
-    background-image: url(img/Blastoise-removebg-preview.png);
+    height: 130px;
+    width: 160px;
+    background-image: url(img/Muk-removebg-preview.png);
     background-size: cover;
     margin-bottom: 200px;
     transition: 300ms;
@@ -1027,7 +1036,7 @@ position: absolute;
 .imagen_personaje_90{
     height: 150px;
     width: 150px;
-    background-image: url(img/Caterpie-removebg-preview.png);
+    background-image: url(img/Shellder-removebg-preview.png);
     background-size: cover;
     margin-bottom: 200px;
     transition: 300ms;
@@ -1036,8 +1045,8 @@ position: absolute;
 
 .imagen_personaje_91{
     height: 150px;
-    width: 100px;
-    background-image: url(img/Bulbasaur-removebg-preview.png);
+    width: 150px;
+    background-image: url(img/Cloyster-removebg-preview.png);
     background-size: cover;
     margin-bottom: 250px;
     transition: 300ms;
@@ -1047,7 +1056,7 @@ position: absolute;
     .imagen_personaje_92{
         height: 150px;
         width: 150px;
-        background-image: url(img/Ivysaur-removebg-preview.png);
+        background-image: url(img/Gastly-removebg-preview.png);
         background-size: cover;
         margin-bottom: 200px;
         transition: 300ms;
@@ -1057,7 +1066,7 @@ position: absolute;
  .imagen_personaje_93{
     height: 150px;
     width: 150px;
-    background-image: url(img/Venusaur-removebg-preview.png);
+    background-image: url(img/Haunter-removebg-preview.png);
     background-size: cover;
     margin-bottom: 200px;
     transition: 300ms;
@@ -1067,8 +1076,8 @@ position: absolute;
 
 .imagen_personaje_94{
     height: 150px;
-    width: 130px;
-    background-image: url(img/Charmander-removebg-preview.png);
+    width: 150px;
+    background-image: url(img/Gengar-removebg-preview.png);
     background-size: cover;
     margin-bottom: 200px;
     transition: 300ms;
@@ -1078,7 +1087,7 @@ position: absolute;
 .imagen_personaje_95{
     height: 150px;
     width: 150px;
-    background-image: url(img/Charmeleon-removebg-preview.png);
+    background-image: url(img/onix-removebg-preview.png);
     background-size: cover;
     margin-bottom: 200px;
     transition: 300ms;
@@ -1088,7 +1097,7 @@ position: absolute;
 .imagen_personaje_96{
     height: 150px;
     width: 150px;
-    background-image: url(img/Charizard-removebg-preview.png);
+    background-image: url(img/Drowzee-removebg-preview.png);
     background-size: cover;
     margin-bottom: 200px;
     transition: 300ms;
@@ -1098,7 +1107,7 @@ position: absolute;
 .imagen_personaje_97{
     height: 150px;
     width: 150px;
-    background-image: url(img/Squirtle-removebg-preview.png);
+    background-image: url(img/Hypno-removebg-preview.png);
     background-size: cover;
     margin-bottom: 200px;
     transition: 300ms;
@@ -1108,7 +1117,7 @@ position: absolute;
 .imagen_personaje_98{
     height: 150px;
     width: 150px;
-    background-image: url(img/Wartortle-removebg-preview.png);
+    background-image: url(img/Krabby-removebg-preview.png);
     background-size: cover;
     margin-bottom: 200px;
     transition: 300ms;
@@ -1118,7 +1127,7 @@ position: absolute;
 .imagen_personaje_99{
     height: 150px;
     width: 150px;
-    background-image: url(img/Blastoise-removebg-preview.png);
+    background-image: url(img/Kingler-removebg-preview.png);
     background-size: cover;
     margin-bottom: 200px;
     transition: 300ms;
@@ -1128,7 +1137,7 @@ position: absolute;
 .imagen_personaje_100{
     height: 150px;
     width: 150px;
-    background-image: url(img/Caterpie-removebg-preview.png);
+    background-image: url(img/Voltorb-removebg-preview.png);
     background-size: cover;
     margin-bottom: 200px;
     transition: 300ms;
