@@ -1,0 +1,1150 @@
+header{
+    background-color: rgb(255, 168, 255);
+    width: 100%;
+    position: fixed;
+    z-index: 100%;
+}
+
+nav{
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Bold italic, sans-serif;
+    font-size: 25px;
+  }
+  nav ul li a {
+    display: block;
+    padding: 35px;
+    color: #000000;
+    text-decoration: neno;
+  }
+  nav ul li:hover {
+    background: #ec23a9 ;
+  }
+
+  img {
+    float: right;
+    width: 15%;
+    height: 15%;
+  }
+
+  .banner{
+      background: url(img/baner\ pokemon.jpg);
+      width: 100;
+      min-height: 100vh;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: black;
+  }
+
+  .banner-title{
+       font-size: 36px;
+  }
+
+  .banner-content{
+    max-width: 768px;
+    text-align: center;
+    z-index: 1;
+
+  }
+
+
+
+  .banner-btn{
+     padding: 0.5rem 1.5rem;
+    appearance: none;
+    border: 2px solid rgb(202, 99, 156);
+    border-radius: 5px;
+    margin-top: 1rem;
+    background: rgba(253, 1, 190, 0.363);
+    color: rgb(5, 5, 5);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    transition: background .275s;
+  
+}
+.overlay {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Bold italic, sans-serif;
+}
+ 
+
+.container{
+    height: 100vh;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card{
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    transition: 300ms;
+}
+
+.personaje, .personaje_2, .personaje_3, .personaje_4, .personaje_5, .personaje_6, .personaje_7, .personaje_8, .personaje_9, .personaje_10, .personaje_11, .personaje_12, .personaje_13, .personaje_14, .personaje_15, .personaje_16, .personaje_17, .personaje_18, .personaje_19, .personaje_20, .personaje_21,.personaje_22, .personaje_23, .personaje_24, .personaje_25, .personaje_26, .personaje_27, .personaje_28, .personaje_29, .personaje_30, .personaje_31, .personaje_32, .personaje_33, .personaje_34, .personaje_35, .personaje_36, .personaje_37, .personaje_38, .personaje_39, .personaje_40,  .personaje_41, .personaje_42, .personaje_43, .personaje_44, .personaje_45, .personaje_46, .personaje_47, .personaje_48, .personaje_49, .personaje_50, .personaje_51, .personaje_52, .personaje_53, .personaje_54, .personaje_55, .personaje_56, .personaje_57, .personaje_58, .personaje_59, .personaje_60, .personaje_61, .personaje_62, .personaje_63, .personaje_64, .personaje_65, .personaje_66, .personaje_67, .personaje_68, .personaje_69, .personaje_70, .personaje_71, .personaje_72, .personaje_73, .personaje_74, .personaje_75, .personaje_76, .personaje_77, .personaje_78, .personaje_79, .personaje_80, .personaje_81, .personaje_82, .personaje_83, .personaje_84, .personaje_85, .personaje_86, .personaje_87, .personaje_88, .personaje_89, .personaje_90,  .personaje_91, .personaje_92, .personaje_93, .personaje_94, .personaje_95, .personaje_96, .personaje_97, .personaje_98, .personaje_99, .personaje_100{
+height: 400px;
+width: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 20%;
+background-color: rgb(255, 87, 179);
+transition: 20ms;
+position: absolute;
+}
+
+.imagen_personaje{
+    height: 150px;
+    width: 100px;
+    background-image: url(img/Bulbasaur-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 250px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+   
+ }
+
+    .imagen_personaje_2{
+        height: 150px;
+        width: 150px;
+        background-image: url(img/Ivysaur-removebg-preview.png);
+        background-size: cover;
+        margin-bottom: 200px;
+        transition: 300ms;
+        filter: drop-shadow(5px -4px 10px #0000);
+ }
+
+ .imagen_personaje_3{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Venusaur-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+
+.imagen_personaje_4{
+    height: 150px;
+    width: 130px;
+    background-image: url(img/Charmander-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_5{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Charmeleon-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_6{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Charizard-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_7{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Squirtle-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_8{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Wartortle-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_9{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Blastoise-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_10{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Caterpie-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_11{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Metapod-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+ }
+
+    .imagen_personaje_12{
+        height: 150px;
+        width: 150px;
+        background-image: url(img/Butterfree-removebg-preview.png);
+        background-size: cover;
+        margin-bottom: 200px;
+        transition: 300ms;
+        filter: drop-shadow(5px -4px 10px #0000);
+ }
+
+ .imagen_personaje_13{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Weedle-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+
+.imagen_personaje_14{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Kakuna-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_15{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/beedrill-removebg-preview\ \(1\).png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_16{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Pidgey-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_17{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Pidgeotto-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_18{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Pidgeot-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_19{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Rattata-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_20{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Raticate-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_21{
+    height: 150px;
+    width: 120px;
+    background-image: url(img/Spearow-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 250px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+ }
+
+ .imagen_personaje_22{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Fearow-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+ .imagen_personaje_23{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Ekans-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+
+.imagen_personaje_24{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Arbok-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_25{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/pikapika-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_26{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Raichu-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_27{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Sandshrew-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_28{
+    height: 150px;
+    width: 160px;
+    background-image: url(img/Sandslash-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_29{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/nidoran-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_30{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Nidorino-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_31{
+    height: 150px;
+    width: 120px;
+    background-image: url(img/Nidoqueen2-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 250px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+ }
+
+ .imagen_personaje_32{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/nidoran-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+ .imagen_personaje_33{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Nidorino-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+
+.imagen_personaje_34{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Nidoking-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_35{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Clefairy-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_36{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Clefable-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_37{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Vulpix-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_38{
+    height: 150px;
+    width: 160px;
+    background-image: url(img/Ninetales-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_39{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Jigglypuff-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_40{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Wigglytuff-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_41{
+    height: 150px;
+    width: 120px;
+    background-image: url(img/Zubat-removebg-preview\ \(1\).png);
+    background-size: cover;
+    margin-bottom: 250px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+ }
+
+ .imagen_personaje_42{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Golbat-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+ .imagen_personaje_43{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Oddish-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+
+.imagen_personaje_44{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Gloom-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_45{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Vileplume-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_46{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Paras-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_47{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Parasect-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_48{
+    height: 150px;
+    width: 160px;
+    background-image: url(img/Venonat-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_49{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Venomoth-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_50{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Diglett-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_51{
+    height: 100px;
+    width: 100px;
+    background-image: url(img/Dugtrio-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 250px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+ }
+
+    .imagen_personaje_52{
+        height: 150px;
+        width: 150px;
+        background-image: url(img/Meowth-removebg-preview.png);
+        background-size: cover;
+        margin-bottom: 200px;
+        transition: 300ms;
+        filter: drop-shadow(5px -4px 10px #0000);
+ }
+
+ .imagen_personaje_53{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Persian-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+
+.imagen_personaje_54{
+    height: 150px;
+    width: 130px;
+    background-image: url(img/Psyduck-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_55{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Golduck-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_56{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/mankey-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_57{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Primeape-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_58{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Growlithe-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_59{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Arcanine-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_60{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Poliwag-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_61{
+    height: 90px;
+    width: 120px;
+    background-image: url(img/Poliwhirl-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 250px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+ }
+
+    .imagen_personaje_62{
+        height: 150px;
+        width: 150px;
+        background-image: url(img/Poliwrath-removebg-preview.png);
+        background-size: cover;
+        margin-bottom: 200px;
+        transition: 300ms;
+        filter: drop-shadow(5px -4px 10px #0000);
+ }
+
+ .imagen_personaje_63{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Abra-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+
+.imagen_personaje_64{
+    height: 150px;
+    width: 130px;
+    background-image: url(img/Kadabra-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_65{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Alakazam-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_66{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/machop1-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_67{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Machoke-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_68{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Machamp-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_69{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Bellsprout-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_70{
+    height: 300px;
+    width: 300px;
+    background-image: url(img/Weepinbell-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_71{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Victreebel-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 250px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+ }
+
+    .imagen_personaje_72{
+        height: 150px;
+        width: 190px;
+        background-image: url(img/1-removebg-preview.png);
+        background-size: cover;
+        margin-bottom: 200px;
+        transition: 300ms;
+        filter: drop-shadow(5px -4px 10px #0000);
+ }
+
+ .imagen_personaje_73{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Tentacool.jpg);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+
+.imagen_personaje_74{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Geodude-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_75{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Graveler-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_76{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Golem-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_77{
+    height: 150px;
+    width: 180px;
+    background-image: url(img/Ponyta-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_78{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Rapidash-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_79{
+    height: 150px;
+    width: 180px;
+    background-image: url(img/Slowpoke-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_80{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Slowbro-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_81{
+    height: 150px;
+    width: 100px;
+    background-image: url(img/Bulbasaur-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 250px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+ }
+
+    .imagen_personaje_82{
+        height: 150px;
+        width: 150px;
+        background-image: url(img/Ivysaur-removebg-preview.png);
+        background-size: cover;
+        margin-bottom: 200px;
+        transition: 300ms;
+        filter: drop-shadow(5px -4px 10px #0000);
+ }
+
+ .imagen_personaje_83{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Venusaur-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+
+.imagen_personaje_84{
+    height: 150px;
+    width: 130px;
+    background-image: url(img/Charmander-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_85{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Charmeleon-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_86{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Charizard-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_87{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Squirtle-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_88{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Wartortle-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_89{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Blastoise-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_90{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Caterpie-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_91{
+    height: 150px;
+    width: 100px;
+    background-image: url(img/Bulbasaur-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 250px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+ }
+
+    .imagen_personaje_92{
+        height: 150px;
+        width: 150px;
+        background-image: url(img/Ivysaur-removebg-preview.png);
+        background-size: cover;
+        margin-bottom: 200px;
+        transition: 300ms;
+        filter: drop-shadow(5px -4px 10px #0000);
+ }
+
+ .imagen_personaje_93{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Venusaur-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+
+.imagen_personaje_94{
+    height: 150px;
+    width: 130px;
+    background-image: url(img/Charmander-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_95{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Charmeleon-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_96{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Charizard-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_97{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Squirtle-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_98{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Wartortle-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_99{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Blastoise-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.imagen_personaje_100{
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Caterpie-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 200px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #0000);
+}
+
+.detalle, .detalle_2, .detalle_3, .detalle_4, .detalle_5, .detalle_6, .detalle_7, .detalle_8, .detalle_9, .detalle_10 .detalle_11, .detalle_12, .detalle_13, .detalle_14, .detalle_15, .detalle_16, .detalle_17, .detalle_18, .detalle_19, .detalle_20, .detalle_21, .detalle_22, .detalle_23, .detalle_24, .detalle_25, .detalle_26, .detalle_27, .detalle_28, .detalle_29, .detalle_30, .detalle_31, .detalle_32, .detalle_33, .detalle_34, .detalle_35, .detalle_36, .detalle_37, .detalle_38, .detalle_39, .detalle_40,.detalle_41, .detalle_42, .detalle_43, .detalle_44, .detalle_45, .detalle_46, .detalle_47, .detalle_48, .detalle_49, .detalle_50 .detalle_51, .detalle_52, .detalle_53, .detalle_54, .detalle_55, .detalle_56, .detalle_57, .detalle_58, .detalle_59, .detalle_60 .detalle_61, .detalle_62, .detalle_63, .detalle_64, .detalle_65, .detalle_66, .detalle_67, .detalle_68, .detalle_69, .detalle_70, .detalle_71, .detalle_72, .detalle_73, .detalle_74, .detalle_75, .detalle_76, .detalle_77, .detalle_78, .detalle_79, .detalle_80, .detalle_81, .detalle_82, .detalle_83, .detalle_84, .detalle_85, .detalle_86, .detalle_87, .detalle_88, .detalle_89, .detalle_90,.detalle_91, .detalle_92, .detalle_93, .detalle_94, .detalle_95, .detalle_96, .detalle_97, .detalle_98, .detalle_99, .detalle_100{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(255, 87, 179);
+    position: absolute;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    margin-top: 150px;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    transition: 300ms;
+}
